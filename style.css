@@ -1,0 +1,35 @@
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #8aa5c0;
+    box-shadow: 0 4px 8px rgba(175, 169, 169, 0.2);
+}
+
+.btn { font-size: 1.2rem; }
+
+.num-display {
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgb(56, 34, 34);
+    color: rgb(198, 148, 148);
+    border: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.button-group { gap: 5px; }
+
+.operator-heading {
+    background-color: rgb(210, 155, 155);
+    color: rgb(60, 113, 111);
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+}
